@@ -9,14 +9,25 @@ body {
 }
 
 .navbar {
+  width: 100%;
   height: 80px;
-  background-color: lime;
+  content: '';
+  display: table;
+  clear: both;
 }
 
-.revolut_logo {
-  width: 135px;
-  padding-top: 40px;
-  padding-left: 50px;
+.navbar_left {
+  float: left;
+}
+
+.navbar_right {
+  float: right;
+}
+
+.navbar_left img {
+  width: 120px;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 .list_left li a{
@@ -33,3 +44,30 @@ body {
 .list_left li {
   display: inline;
 }
+
+.list_right li {
+  display: inline;
+}
+
+.list_right li a{
+  list-style: none;
+  text-decoration: none;
+  color: lightgrey;
+  padding-right: 40px;
+  line-height: 80px;
+}
+
+.list_right li a:hover{
+  color: black;
+}
+
+.button_dwn {
+  background-color: #D2007E;
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-right: 50px;
+}
+
+.list_right li
