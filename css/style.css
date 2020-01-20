@@ -14,5 +14,22 @@ body {
 }
 
 .revolut_logo {
-  width: 5%;
+  width: 135px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.list_left li a{
+  list-style: none;
+  text-decoration: none;
+  color: lightgrey;
+  padding-left: 25px;
+}
+
+.list_left li a:hover{
+  color: black;
+}
+
+.list_left li {
+  display: inline;
 }
