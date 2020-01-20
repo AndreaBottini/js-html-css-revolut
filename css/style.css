@@ -61,8 +61,12 @@ body {
   color: black;
 }
 
+.fa-chevron-down {
+  font-size: 10px;
+}
+
 .button_dwn {
-  background-color: #D2007E;
+  background-color: #FD208F;
   color: white;
   border-radius: 30px;
   font-size: 16px;
@@ -70,4 +74,18 @@ body {
   margin-right: 50px;
 }
 
-.list_right li
+.button_dwn:hover {
+  background-color: #D2007E;
+  cursor: pointer;
+}
+
+//dropdown
+.relative {
+  position: relative;
+}
+
+.drop {
+  position: absolute;
+  padding: 0 10px;
+  margin-top: 10px;
+}
