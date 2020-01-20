@@ -1,1 +1,14 @@
-//alert('funziona?')
+$(document).ready(
+  function(){
+    $(".link_able").mouseenter(
+      function(){
+        $(this).children(".drop").addClass("active");
+      }
+    );
+    $(".link_able").mouseleave(
+      function(){
+        $(this).children(".drop").removeClass("active");
+      }
+    );
+  }
+);
