@@ -85,12 +85,13 @@ body {
 
 .drop {
   position: absolute;
+  top: 60px;
+  right: 30%;
   list-style: none;
   display: none;
   margin-top: 10px;
   box-shadow: 1px 0px 21px -5px rgba(0,0,0,0.75);
   border-radius: 2px;
-  transform: translate(80%);
 }
 
 .drop li a {
