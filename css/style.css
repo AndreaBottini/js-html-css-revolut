@@ -78,20 +78,20 @@ body {
   cursor: pointer;
 }
 
-//dropdown
-.relative {
+/* dropdown */
+.link_able {
   position: relative;
 }
 
 .drop {
   position: absolute;
-  top: 60px;
-  right: 30%;
+  top: 20px;
+  right: 0%;
   list-style: none;
   display: none;
-  margin-top: 10px;
   box-shadow: 1px 0px 21px -5px rgba(0,0,0,0.75);
   border-radius: 2px;
+  transform: translateX(20%);
 }
 
 .drop li a {
